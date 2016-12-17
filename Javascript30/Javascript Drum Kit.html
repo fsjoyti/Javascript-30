@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Javascript Saxophone Kit</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <link rel = "stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<h1>
+    Saxophone Sounds
+</h1>
+
+<div class="keys">
+    <div data-key ="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">Breathy Jazz Sax 1</span>
+    </div>
+
+    <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">Breathy Jazz Sax2</span>
+
+    </div>
+
+    <div data-key="67" class="key">
+        <kbd>C</kbd>
+        <span class="sound">French Horn Melody</span>
+    </div>
+
+    <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">Duke Trumpet Finale</span>
+    </div>
+
+    <div data-key="71" class="key">
+    <kbd>G</kbd>
+        <span class="sound">Jazz Horn Swells</span>
+    </div>
+
+    <div data-key="72" class="key">
+        <kbd>H</kbd>
+        <span class="sound">Elongated Horns</span>
+    </div>
+</div>
+<audio  data-key="65" src="sounds/breathy-jazz-sax.wav"></audio>
+<audio data-key="83" src="sounds/breathy-jazz-sax-2.wav"></audio>
+<audio data-key="67" src ="sounds/french_horn_melody.WAV"></audio>
+<audio data-key="68" src = "sounds/duke-trumpet-finale.wav"></audio>
+<audio data-key="71" src = "sounds/144_jazz-horn-swells.wav"></audio>
+<audio data-key="72" src="sounds/148_elongated-jazz-horns.wav"></audio>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
